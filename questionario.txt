@@ -1,0 +1,8 @@
+1º - Por que o Aluno B teve seu comando git push recusado na Fase 3?
+O comando git push do Aluno B foi recusado porque o repositório remoto já possuía alterações enviadas anteriormente pelo Aluno A. Como o histórico local do Aluno B estava desatualizado em relação ao servidor, o Git bloqueou o envio para evitar que o trabalho já existente fosse sobrescrito ou perdido. Antes de enviar novamente, o Aluno B precisava atualizar seu repositório com um git pull.
+
+2º - Qual a utilidade real de utilizarmos comandos como git checkout -b no dia a dia de uma equipe de desenvolvimento?
+O comando git checkout -b é utilizado para criar e mudar para uma nova branch ao mesmo tempo. Na prática, isso é muito importante em equipes de desenvolvimento porque permite que cada desenvolvedor trabalhe em funcionalidades, correções ou testes separadamente, sem alterar diretamente o código principal do projeto. Assim, várias pessoas conseguem trabalhar simultaneamente de forma organizada e segura.
+
+3º - Como o Git ajuda a garantir que o código de um desenvolvedor não apague acidentalmente o trabalho de outro?
+O Git ajuda a proteger o trabalho dos desenvolvedores através do controle de versão. Ele registra todas as alterações feitas no projeto e compara os históricos antes de permitir envios para o repositório remoto. Quando existem mudanças conflitantes entre diferentes desenvolvedores, o Git impede a sobrescrita automática e solicita que os conflitos sejam resolvidos manualmente. Dessa forma, evita que o código de uma pessoa apague acidentalmente o trabalho da outra.
